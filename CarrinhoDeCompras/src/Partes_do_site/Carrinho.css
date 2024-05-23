@@ -1,0 +1,59 @@
+.fechado{
+  display: none;
+}
+.aberto{
+  padding: 2rem;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 60%;
+  background-color: #FFF;
+  border-radius: 20px 0px 0px 20px;
+  height: 98vh;
+  width: 40vw;
+  box-shadow: 1px 1px 6px  rgba(128, 128, 128, 0.742);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.carrinho-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .comprando-container{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    
+  }
+  
+  .close-btn{
+    color: red;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  .finalizar{
+    width: 90%;
+    height: 3rem;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color:#3BD80D;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .total{
+    padding: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+  }
+  
