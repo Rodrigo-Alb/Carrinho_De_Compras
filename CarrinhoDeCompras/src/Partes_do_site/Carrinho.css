@@ -57,3 +57,9 @@
     border-radius: 10px;
   }
   
+  @media (max-width:650px){
+    .aberto{
+      width: 90%;
+      left: 10%;
+    }
+  }
